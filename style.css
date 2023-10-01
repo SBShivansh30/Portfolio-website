@@ -1,7 +1,12 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default styles */
+body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
+}
+
+/* Apply a background color and set font styles */
+body {
+    font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
 }
 
@@ -13,6 +18,7 @@ header {
 }
 
 h1 {
+    font-family: 'Georgia', serif;
     font-size: 36px;
     margin: 0;
 }
@@ -22,6 +28,7 @@ p {
     margin: 5px 0;
 }
 
+/* Style the sections */
 section {
     margin: 20px;
     padding: 20px;
@@ -35,19 +42,12 @@ h2 {
     margin-bottom: 10px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 20px;
-}
-
+/* Style the portfolio projects */
 .project {
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -55,6 +55,7 @@ a {
     color: #0074d9;
 }
 
+/* Style the footer */
 footer {
     text-align: center;
     margin-top: 20px;
