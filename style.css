@@ -1,14 +1,10 @@
-/* Reset some default styles */
-body, h1, h2, p, ul {
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
     margin: 0;
     padding: 0;
-}
-
-/* Apply a black background and set font styles */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #000; /* Set background color to black */
-    color: #fff; /* Set text color to white */
 }
 
 header {
@@ -19,7 +15,6 @@ header {
 }
 
 h1 {
-    font-family: 'Georgia', serif;
     font-size: 36px;
     margin: 0;
 }
@@ -29,7 +24,6 @@ p {
     margin: 5px 0;
 }
 
-/* Style the sections */
 section {
     margin: 20px;
     padding: 20px;
@@ -43,20 +37,17 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Style the portfolio projects */
-.project {
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
     margin-bottom: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: #0074d9;
-}
+/* Add more styles for other sections as needed */
 
-/* Style the footer */
 footer {
     text-align: center;
     margin-top: 20px;
