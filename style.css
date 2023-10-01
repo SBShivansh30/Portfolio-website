@@ -4,10 +4,11 @@ body, h1, h2, p, ul {
     padding: 0;
 }
 
-/* Apply a background color and set font styles */
+/* Apply a black background and set font styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
 }
 
 header {
@@ -32,7 +33,7 @@ p {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1); /* Light gray background with opacity */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
